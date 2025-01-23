@@ -1,0 +1,5 @@
+dist/
+build/
+migrations/
+__pycache__/
+django_transfiles.egg-info/
