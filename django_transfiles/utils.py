@@ -41,7 +41,7 @@ def base36_encode(number: int) -> str:
 
 
 def get_translations_from_api(data,source_lang, target_lang, route_file):
-    url_api = f'http://127.0.0.1:8000/api/general_translations/?source_lang={source_lang}&target_lang={target_lang}'
+    url_api = f'https://transfiles.neiderruiz.com/api/general_translations/?source_lang={source_lang}&target_lang={target_lang}'
     
     if route_file:
         url_api += f"&route_file={route_file}"
